@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Faith Associates</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>32</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Faith Associates</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>5</height>
+    </size>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>10</height>
+    </size>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>Accounts</string>
+    </property>
+    <addaction name="actionCompanySetup"/>
+    <addaction name="actionDateSetup"/>
+    <addaction name="separator"/>
+    <addaction name="actionChartOfAccounts"/>
+   </widget>
+   <widget class="QMenu" name="menuActivities">
+    <property name="title">
+     <string>Activities</string>
+    </property>
+    <addaction name="actionAdd_New_Job"/>
+    <addaction name="actionJob_List"/>
+    <addaction name="separator"/>
+    <addaction name="actionAdd_New_PID"/>
+    <addaction name="actionPID_List"/>
+   </widget>
+   <widget class="QMenu" name="menuBilling">
+    <property name="title">
+     <string>Billing</string>
+    </property>
+    <addaction name="actionCreate_New_Bill"/>
+    <addaction name="separator"/>
+    <addaction name="actionCreate_New_PID_Bill"/>
+   </widget>
+   <widget class="QMenu" name="menuReports">
+    <property name="title">
+     <string>Reports</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuActivities"/>
+   <addaction name="menuBilling"/>
+   <addaction name="menuReports"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionCompanySetup">
+   <property name="text">
+    <string>Company Setup</string>
+   </property>
+  </action>
+  <action name="actionDateSetup">
+   <property name="text">
+    <string>Date Setup</string>
+   </property>
+  </action>
+  <action name="actionChartOfAccounts">
+   <property name="text">
+    <string>Chart Of Accounts</string>
+   </property>
+  </action>
+  <action name="actionAdd_New_Job">
+   <property name="text">
+    <string>Add New Job</string>
+   </property>
+  </action>
+  <action name="actionJob_List">
+   <property name="text">
+    <string>Job List</string>
+   </property>
+  </action>
+  <action name="actionAdd_New_PID">
+   <property name="text">
+    <string>Add New PID</string>
+   </property>
+  </action>
+  <action name="actionPID_List">
+   <property name="text">
+    <string>PID List</string>
+   </property>
+  </action>
+  <action name="actionCreate_New_Bill">
+   <property name="text">
+    <string>Create New Bill</string>
+   </property>
+  </action>
+  <action name="actionCreate_New_PID_Bill">
+   <property name="text">
+    <string>Create New PID Bill</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
