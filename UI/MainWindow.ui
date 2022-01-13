@@ -23,23 +23,33 @@
    <string>Faith Associates</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
+   <widget class="QWidget" name="Home" native="true">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>30</y>
-      <width>281</width>
-      <height>41</height>
+      <x>-1</x>
+      <y>-1</y>
+      <width>801</width>
+      <height>551</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>32</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Faith Associates</string>
-    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>16</y>
+       <width>141</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>HOME</string>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -71,6 +81,8 @@
     <addaction name="actionDateSetup"/>
     <addaction name="separator"/>
     <addaction name="actionChartOfAccounts"/>
+    <addaction name="separator"/>
+    <addaction name="actionAdd_New_Item"/>
    </widget>
    <widget class="QMenu" name="menuActivities">
     <property name="title">
@@ -144,6 +156,16 @@
   <action name="actionCreate_New_PID_Bill">
    <property name="text">
     <string>Create New PID Bill</string>
+   </property>
+  </action>
+  <action name="actionAdd_New_Item">
+   <property name="text">
+    <string>Item Management</string>
+   </property>
+  </action>
+  <action name="actionAdd_New_Terminal">
+   <property name="text">
+    <string>Add New Terminal</string>
    </property>
   </action>
  </widget>
