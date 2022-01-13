@@ -8,7 +8,7 @@ from PyQt5 import QtCore
 class LoginWindow(QMainWindow):
     def __init__(self):
         super(LoginWindow, self).__init__()
-        loadUi("LoginWindow.ui", self)
+        loadUi("UI/LoginWindow.ui", self)
         self.setWindowModality(QtCore.Qt.ApplicationModal)
 
     # Clickable Buttons and Menus

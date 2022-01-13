@@ -9,7 +9,7 @@ from login import LoginWindow
 class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
-        loadUi("MainWindow.ui", self)
+        loadUi("UI/MainWindow.ui", self)
         self.showLogin()
     # Clickable Buttons and Menus
 
